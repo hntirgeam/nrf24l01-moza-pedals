@@ -83,4 +83,4 @@ There's a 3.3V power line on the RJ45 and a common ground shared with the pedals
 
 - Ideally, it would be better to use a DAC to generate a proper signal for the base, avoiding noise and the slight delay that can occur with capacitor-based solutions. However, most available DAC modules only support two I2C addresses with only 1 channel, and bare modules can be tricky to wire up. Still, this approach could provide a higher quality and more reliable result.
 
-- Somehow make power consumption better
+- Somehow make power consumption better (probably make autoshutdown via mosfet or smth)
